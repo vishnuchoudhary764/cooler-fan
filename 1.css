@@ -1,0 +1,74 @@
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:gray;
+   
+}
+        .container{
+            height: 97vh;
+            width: 30vw;
+            border-radius:4rem;
+            border: 2px solid black;
+            background-color:white;
+             display:flex;
+             justify-content: center;
+             align-items: center;
+             flex-direction: column;
+             gap:4rem;
+             box-shadow: 16px 8px 16px black;
+        }@media(max-width:650px){
+            .container{
+                margin-top: 8rem;
+                height:70vh;
+                width:78vw;
+            }
+
+        }
+        img{
+            background-image: url(coolerbg.jpeg);
+            border-radius: 50%;
+           
+        }
+      
+
+        .off{
+           margin-left: 4rem;
+            font-size:1.5rem;
+            padding:1rem;
+            border: none;
+            border-radius: 2rem;
+            background-color:black;
+            color: white;
+        }
+        .on{
+            font-size:1.5rem;
+            padding:1rem;
+            border: none;
+            border-radius: 2rem;
+            background-color:black;
+            color: white;
+        }
+        .fon{
+            background-color:rgb(13, 231, 13)
+        }
+        .foff{
+            background-color: rgb(244, 7, 7);
+        }
+      
+        .hide{
+            animation: vishnu 1ms ease-in 0s infinite  ;
+
+        }
+      
+        @keyframes vishnu {
+            from{
+                transform: rotate(360deg);
+            }
+            to{
+                transform: rotate(0deg);
+            }
+        }
+       
+    
