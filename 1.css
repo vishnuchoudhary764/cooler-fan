@@ -8,7 +8,7 @@ body{
 }
       .container{
             height: 97vh;
-            width: 50vw;
+            width: 40vw;
             border-radius:4rem;
             border: 2px solid black;
             background-color:white;
@@ -29,7 +29,7 @@ body{
       
 
         }
-        img{
+        .bg{
             background-image: url(coolerbg.jpeg);
             border-radius: 50%;
            
